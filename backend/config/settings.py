@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.users', 
-    'apps.carts', 
+    'apps.users',
+    'apps.carts',
     'apps.orders',
     'apps.items',
     'cloudinary',
@@ -90,24 +90,24 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 # Heroku Database
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'd7rtl5vo7sq6nu',
-#         'USER': 'kxqrkacdytfndi',
-#         'PORT': 5432,
-#         'HOST': 'ec2-3-229-161-70.compute-1.amazonaws.com',
-#         'PASSWORD': 'f249dfdbc763347e3c0e439053e0225cbfd0b6caa0c17bf418c30f00b943634e',
-#     }
-# }
-
-# Local Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd681c0m3hplr9s',
+        'USER': 'kynhxypxlkoqor',
+        'PORT': 5432,
+        'HOST': 'ec2-44-206-89-185.compute-1.amazonaws.com',
+        'PASSWORD': 'd6c565c7b26a0d0254047966dba6351133455d0f778ffd62cfaa68df8f0b995f',
     }
 }
+
+# Local Database
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 # Heroku PostgreSQL Database
 # django_heroku.settings(locals())
@@ -167,4 +167,3 @@ cloudinary.config(
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
 }
-
