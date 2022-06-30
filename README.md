@@ -2,8 +2,8 @@
 ```
 Cool-Tees, with a frontend built in React & Redux and a backend built in Django API.
 ```
-Check out [FRONTEND LIVE DEMO](https://frontend-eric.herokuapp.com/) here!!
-Check out [API LIVE DEMO](https://backend-eric.herokuapp.com/) here!!
+Check out [FRONTEND LIVE DEMO](https://cool-tees-front.herokuapp.com/) here!!
+Check out [API LIVE DEMO](https://cool-tees-back.herokuapp.com/) here!!
 ## Tech used
 ```
 * Frontend : React & Redux
