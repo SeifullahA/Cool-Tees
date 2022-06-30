@@ -12,7 +12,7 @@ Check out [API LIVE DEMO](https://cool-tees-back.herokuapp.com/) here!!
 ## How to Install
 1. Git Clone
 ```
-git clone https://github.com/eaize/CoolTees.git
+git clone https://github.com/SeifullahA/Cool-Tees.git
 ```
 2. Backend setting
 ```
